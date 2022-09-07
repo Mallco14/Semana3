@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana3.MainPage">
+
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+      
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Text="Ejemplo" BackgroundColor="Green"></Button>
+        
+    </Grid>
+    
+    
+    <!--<RelativeLayout>
+        <Button BackgroundColor="Green"
+                Text="Mi primer boton"
+                RelativeLayout.HeightConstraint="{
+                ConstraintExpression Type=RelativeToParent,
+                Property= Width,
+                Factor =0.5
+            
+                }"></Button>
+        
+    </RelativeLayout>-->
+    <!--<AbsoluteLayout>
+        <Button BackgroundColor="Green"
+                Text="Mi primer boton"
+                AbsoluteLayout.LayoutBounds="200,200,200,100">
+            
+        </Button>
+        
+        <Button BackgroundColor="Yellow"
+                Text="Mi primer boton"
+                AbsoluteLayout.LayoutBounds="0,0,200,100">
+
+        </Button>
+
+    </AbsoluteLayout>-->
+
+    <!--<stacklayout>
+        <button backgroundcolor="green"
+               text="mi primer boton"></button>
+        <button backgroundcolor="green"
+               text="mi primer boton"></button>
+        <button backgroundcolor="green"
+               text="mi primer boton"></button>
+        <stacklayout orientation="horizontal">
+            <stacklayout>
+                <button backgroundcolor="blue"
+                        text="mi primer boton"></button>
+                <button backgroundcolor="blue"
+                        text="mi primer boton"></button>
+            </stacklayout>
+
+
+        </stacklayout>
+    </stacklayout>-->
+
+</ContentPage>
